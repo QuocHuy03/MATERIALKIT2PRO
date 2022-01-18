@@ -1,0 +1,809 @@
+/* mobile */
+
+@media only screen and (max-width: 768px) {
+  /* 
+@media (min-width: 321px) and (max-width: 768px) { */
+  /* // menu // */
+
+  #menu {
+    width: 350px;
+    margin-top: 20px;
+  }
+  .kimidev-tet-left {
+    display: none;
+  }
+  .kimidev-tet-right {
+    display: none;
+  }
+  .tongmenu {
+    flex-direction: column;
+    display: none;
+  }
+  .bars {
+    display: block;
+  }
+  .buy {
+    margin-right: 40px;
+  }
+
+  /* react */
+
+  .react {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 200px;
+  }
+  .chu h1 {
+    font-size: 1.875rem;
+  }
+  .chu p {
+    font-size: 1.5rem;
+  }
+
+  /* // sanpham // */
+
+  .tongsanpham {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .code {
+    padding: 0;
+    flex-direction: column;
+  }
+  .from {
+    padding: 20px 0px;
+  }
+
+  /* // phần  rotate 180deg // */
+
+  .tongphanmot {
+    flex-direction: column;
+    margin: 60px 0px;
+  }
+
+  .full {
+    flex-direction: column;
+    padding: 30px 25px;
+  }
+
+  /* <!-- / / phanHuge/ / --> */
+
+  .huge {
+    margin: 0;
+  }
+
+  /* /////// design blocks /////  */
+
+  .design {
+    margin: 0px 10px;
+  }
+  .hine {
+    flex-direction: column;
+  }
+  .blocks {
+    margin-right: 0;
+    margin-top: 70px;
+  }
+  .image {
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+  }
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* <!-- // navigation // --> */
+
+  .navigation {
+    flex-direction: column;
+  }
+  .that {
+    margin-right: 0;
+  }
+
+  /* <!-- // input area // --> */
+
+  .input {
+    flex-direction: column;
+  }
+  .area {
+    margin-right: 0;
+  }
+
+  /* Attention Catchers */
+
+  .attention {
+    flex-direction: column;
+  }
+  .catchers {
+    margin-right: 0;
+  }
+
+  /* <!-- // Elements // --> */
+
+  .elements {
+    flex-direction: column;
+  }
+  .small {
+    margin-right: 0;
+  }
+
+  /* <!-- /// WEBAPPS /// --> */
+
+  .webapps {
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 30px;
+  }
+  .beautifull {
+    margin-right: 0;
+  }
+  .btnff {
+    padding: 0;
+    padding-left: 20px;
+  }
+  .imgss2 {
+    grid-template-columns: 1fr;
+  }
+  .imgss2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* //// */
+
+  .creativity {
+    margin: 0;
+  }
+  .to {
+    flex-direction: column;
+    text-align: center;
+  }
+  .imaaage {
+    grid-template-columns: 1fr;
+  }
+  .for {
+    margin: 30px 0px;
+  }
+
+  /* // complex // */
+
+  .complex {
+    margin: 0;
+  }
+  .documentation {
+    padding: 50px 20px;
+  }
+  .documentation h1 {
+    font-size: 2rem;
+  }
+
+  /* phan3 xanh */
+
+  .getting {
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+
+  /* ///// */
+
+  .this {
+    grid-template-columns: 1fr;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* // boder */
+
+  .boder {
+    margin: 30px 10px;
+    opacity: 1;
+  }
+
+  /* <!-- // phan 5logo // --> */
+
+  .tong5logo {
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+  }
+  .apple img {
+    justify-content: center;
+  }
+
+  /* Ready to get Material Kit? */
+
+  .ready {
+    margin-top: 30px;
+    padding-top: 15px;
+  }
+
+  /* <!-- phan4giatien --> */
+
+  .p-c-c-p {
+    flex-direction: column;
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .freelancer {
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  .freelancers {
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  /* // thank you // */
+
+  .thank {
+    flex-direction: column;
+    margin: 50px;
+    text-align: center;
+  }
+  .you h3 {
+    padding-bottom: 10px;
+  }
+  .you span {
+    line-height: 20px;
+  }
+  .tong3dv {
+    margin-top: 30px;
+  }
+  .pin-it {
+    margin-top: 10px;
+  }
+
+  /* phancuoi */
+
+  .phancuoi {
+    flex-direction: column;
+    margin: 30px 10px;
+  }
+  .pro {
+    margin-right: 0;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .dinhvay {
+    padding-top: 30px;
+  }
+}
+
+/* tablet */
+
+@media (min-width: 766px) and (max-width: 1260px) {
+  #menu {
+    width: 600px;
+    margin-top: 20px;
+  }
+  .kimidev-tet-left {
+    display: none;
+  }
+  .kimidev-tet-right {
+    display: none;
+  }
+  .tongmenu {
+    flex-direction: column;
+    display: none;
+  }
+  .bars {
+    display: block;
+  }
+  .buy {
+    margin-right: 40px;
+  }
+
+  /* react */
+
+  .react {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 200px;
+  }
+
+  /* // sanpham // */
+
+  .tongsanpham {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .code {
+    padding: 0;
+  }
+  .from {
+    padding: 20px 0px;
+  }
+
+  /* // phần  rotate 180deg // */
+
+  .tongphanmot {
+    flex-direction: column;
+    margin: 60px 0px;
+  }
+
+  .full {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .huge {
+    margin: 0;
+  }
+
+  /* /////// design blocks /////  */
+
+  .design {
+    margin: 0px 10px;
+  }
+  .hine {
+    flex-direction: column;
+  }
+  .blocks {
+    margin-right: 0;
+    margin-top: 70px;
+  }
+  .image {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+  }
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* <!-- // navigation // --> */
+
+  .navigation {
+    flex-direction: column;
+  }
+  .that {
+    margin-right: 0;
+  }
+
+  /* <!-- // input area // --> */
+
+  .input {
+    flex-direction: column;
+  }
+  .area {
+    margin-right: 0;
+  }
+
+  /* Attention Catchers */
+
+  .attention {
+    flex-direction: column;
+  }
+  .catchers {
+    margin-right: 0;
+  }
+
+  /* <!-- // Elements // --> */
+
+  .elements {
+    flex-direction: column;
+  }
+  .small {
+    margin-right: 0;
+  }
+
+  /* <!-- /// WEBAPPS /// --> */
+
+  .webapps {
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 30px;
+  }
+  .beautifull {
+    margin-right: 0;
+  }
+  .btnff {
+    padding: 0;
+    padding-left: 20px;
+  }
+  .imgss2 {
+    grid-template-columns: 1fr;
+  }
+  .imgss2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* //// */
+
+  .creativity {
+    margin: 0;
+  }
+  .to {
+    flex-direction: column;
+    text-align: center;
+  }
+  .imaaage {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .imaaage img {
+    width: 100%;
+    height: auto;
+  }
+  .for {
+    margin: 30px 0px;
+  }
+
+  /* // complex // */
+
+  .complex {
+    margin: 0;
+  }
+  .documentation {
+    padding: 50px 20px;
+  }
+  .documentation h1 {
+    font-size: 2rem;
+  }
+
+  /* phan3 xanh */
+
+  .getting {
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+  }
+
+  /* ///// */
+
+  .this {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* // boder */
+
+  .boder {
+    margin: 30px 10px;
+    opacity: 1;
+  }
+
+  /* <!-- // phan 5logo // --> */
+
+  .tong5logo {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+  }
+  .apple img {
+    justify-content: center;
+  }
+
+  /* Ready to get Material Kit? */
+
+  .ready {
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+
+  /* <!-- phan4giatien --> */
+
+  .p-c-c-p {
+    flex-direction: column;
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .freelancer {
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  .freelancers {
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  /* // thank you // */
+
+  .thank {
+    flex-direction: column;
+    margin: 50px;
+    text-align: center;
+  }
+  .you h3 {
+    padding-bottom: 10px;
+  }
+  .you span {
+    line-height: 20px;
+  }
+  .tong3dv {
+    margin-top: 30px;
+  }
+
+  /* phancuoi */
+
+  .phancuoi {
+    flex-direction: column;
+    margin: 30px 10px;
+  }
+  .pro {
+    margin-right: 0;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .dinhvay {
+    padding-top: 30px;
+  }
+}
+
+/* iphone5s */
+
+@media (max-width: 320px) {
+  #menu {
+    width: 280px;
+    margin-top: 20px;
+  }
+  .logo a {
+    font-size: 14px;
+  }
+  .kimidev-tet-left {
+    display: none;
+  }
+  .kimidev-tet-right {
+    display: none;
+  }
+  .tongmenu {
+    flex-direction: column;
+    display: none;
+  }
+  .bars {
+    display: block;
+  }
+  .buy {
+    margin-right: 20px;
+    font-size: 14px;
+  }
+
+  /* react */
+
+  .react {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 130px;
+  }
+  .chu h1 {
+    font-size: 1.2rem;
+  }
+  .chu p {
+    font-size: 1.1rem;
+  }
+
+  /* // sanpham // */
+
+  .tongsanpham {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .code {
+    padding: 0;
+    flex-direction: column;
+  }
+  .from {
+    padding: 20px 0px;
+  }
+
+  /* // phần  rotate 180deg // */
+
+  .tongphanmot {
+    flex-direction: column;
+    margin: 60px 0px;
+  }
+
+  .full {
+    flex-direction: column;
+    padding: 30px 25px;
+  }
+
+  /* <!-- / / phanHuge/ / --> */
+
+  .huge {
+    margin: 0;
+  }
+
+  /* /////// design blocks /////  */
+
+  .design {
+    margin: 0px 10px;
+  }
+  .hine {
+    flex-direction: column;
+  }
+  .blocks {
+    margin-right: 0;
+    margin-top: 70px;
+  }
+  .image {
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+  }
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* <!-- // navigation // --> */
+
+  .navigation {
+    flex-direction: column;
+  }
+  .that {
+    margin-right: 0;
+  }
+
+  /* <!-- // input area // --> */
+
+  .input {
+    flex-direction: column;
+  }
+  .area {
+    margin-right: 0;
+  }
+
+  /* Attention Catchers */
+
+  .attention {
+    flex-direction: column;
+  }
+  .catchers {
+    margin-right: 0;
+  }
+
+  /* <!-- // Elements // --> */
+
+  .elements {
+    flex-direction: column;
+  }
+  .small {
+    margin-right: 0;
+  }
+
+  /* <!-- /// WEBAPPS /// --> */
+
+  .webapps {
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 30px;
+  }
+  .beautifull {
+    margin-right: 0;
+  }
+  .btnff {
+    padding: 0;
+    padding-left: 20px;
+  }
+  .imgss2 {
+    grid-template-columns: 1fr;
+  }
+  .imgss2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* //// */
+
+  .creativity {
+    margin: 0;
+  }
+  .to {
+    flex-direction: column;
+    text-align: center;
+  }
+  .imaaage {
+    grid-template-columns: 1fr;
+  }
+  .for {
+    margin: 30px 0px;
+  }
+
+  /* // complex // */
+
+  .complex {
+    margin: 0;
+  }
+  .documentation {
+    padding: 50px 20px;
+  }
+  .documentation h1 {
+    font-size: 2rem;
+  }
+
+  /* phan3 xanh */
+
+  .getting {
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+
+  /* ///// */
+
+  .this {
+    grid-template-columns: 1fr;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* // boder */
+
+  .boder {
+    margin: 30px 10px;
+    opacity: 1;
+  }
+
+  /* <!-- // phan 5logo // --> */
+
+  .tong5logo {
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+  }
+  .apple img {
+    justify-content: center;
+  }
+
+  /* Ready to get Material Kit? */
+
+  .ready {
+    margin-top: 30px;
+    padding-top: 15px;
+  }
+
+  /* <!-- phan4giatien --> */
+
+  .p-c-c-p {
+    flex-direction: column;
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .freelancer {
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  .freelancers {
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  /* // thank you // */
+
+  .thank {
+    flex-direction: column;
+    margin: 50px;
+    text-align: center;
+  }
+  .you h3 {
+    padding-bottom: 10px;
+  }
+  .you span {
+    line-height: 20px;
+  }
+  .tong3dv {
+    margin-top: 30px;
+  }
+  .pin-it {
+    margin-top: 10px;
+  }
+
+  /* phancuoi */
+
+  .phancuoi {
+    flex-direction: column;
+    margin: 30px 10px;
+  }
+  .pro {
+    margin-right: 0;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .dinhvay {
+    padding-top: 30px;
+  }
+}
